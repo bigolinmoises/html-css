@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: sans-serif; /* São mencionadas 3 tipos de fontes, o programa vai tentar utilizar da primeira para a última, caso o computador não tenha compatibilidade com a fonte aplicada, CSS Safe Font Combinations */
+            font-size: 16px;
+            /* Tamanho de fonte, Medidas Absolutas: CM, MM, IN, PX, PT, PC    ( >>PX e EM são as mais recomendadas<< )
+            Medidas Relativas: EM, EX, REM, VW, VH, % 
+            16px geralmente = 1em*/
+            font-weight: ;
+            /* lighter, normal, bold, bolder ou de 100 a 900 */
+            font-style: ;
+            /* Italico,  */
+            text-decoration: ;
+            /* Adicionar sublinhado: underline */
+        }
+
+        h1 {
+            /*font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+             Shorthand font: (ordem) font-style, fnot-weight, font-size, font-family*/
+            font: italic bolder 3em sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, magni minus libero tempora fuga vitae quas dolore deserunt, doloremque at quis, labore eum dolorum nemo expedita soluta minima officia quae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eaque debitis consequuntur rem repudiandae! Alias dolor debitis deserunt totam fuga quasi consequuntur ipsum soluta delectus! Assumenda odit facilis officia ducimus.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nobis aliquid necessitatibus dolores praesentium molestias odit vel, repellat aspernatur aliquam earum quidem placeat. Cumque quo vel at eligendi, aliquid repellendus!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, laborum aperiam repellat molestias voluptatum in excepturi sed voluptatibus blanditiis eius sequi accusamus repudiandae dolore! Quas tenetur eligendi veniam ad dolore!</p>
+</body>
+</html>
